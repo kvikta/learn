@@ -15,4 +15,9 @@ class Add{
         val sumOfThree = a + b + c
         println("The sum of 3 is: $sumOfThree")
     }
+
+
+    init {
+        println("This class has 2 secondary constructors that one's called from the other.")
+    }
 }
