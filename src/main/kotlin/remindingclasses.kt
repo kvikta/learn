@@ -16,8 +16,11 @@ class Employee(fName:String, lName: String, yoBirth: Int, dept: String, rle: Str
     }
 }
 
+// Main Function
 fun main(){
+    //creating object of the Employee class
     var victor = Employee("Victor", "Tonui", 1993, "Engineering", "Systems Integration Engineer")
+    //Calling method of the object of the employee class
     victor.employeeDetails()
 
 }
